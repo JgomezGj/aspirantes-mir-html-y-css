@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    
+    <form action="action" class="form">
+        <h1>Login</h1>
+        <label for="submit">Email <br><input type="email" class="email" id="email"></label>
+        <br><label for="submit">Password <br><input type="password" class="password" id="password"></label>
+        <br><label for="submit">Género <br><select name="genero" id="genero" class="genero">
+            <option value="value1">Hombre</option>
+            <option value="value2">Mujer</option>
+        </select></label>
+        <br><label for="submit"><br><input type="checkbox">Acepto los términos</label><br>
+        <br><button class="boton">Ingresar</button>
+    </form>
 </body>
 </html>
